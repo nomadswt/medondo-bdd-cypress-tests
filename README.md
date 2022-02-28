@@ -12,3 +12,4 @@ Run `npm install typescript`
 ### Tests execution
 
 Run `npm run cypress:open`
+`After running the command npm run cypress:open, cypress will open, to run the tests select the desired feature file`

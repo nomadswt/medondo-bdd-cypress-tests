@@ -1,0 +1,24 @@
+{
+  "name": "medondo-bdd-cypress",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "cypress:open": "cypress open"
+  },
+  "author": "Test",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "tsify": "^5.0.4",
+    "typescript": "^4.5.5"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/step_definitions/"
+  },
+  "devDependencies": {
+    "cypress": "^8.7.0",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  }
+}

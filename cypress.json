@@ -1,0 +1,5 @@
+{
+  "baseUrl": "https://qa-test1.medondo.app",
+  "ignoreTestFiles": ["*.js", "*.md"],
+  "testFiles": "**/*.feature"
+}
